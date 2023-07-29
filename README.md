@@ -24,3 +24,6 @@ The solutions in this repository are implemented in the following programming la
 
 - Python
 
+### Note to Self:
+
+Must revert to old version of leetcode then submit to have problem automatically uploaded to github.
