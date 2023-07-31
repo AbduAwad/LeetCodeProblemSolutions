@@ -1,11 +1,5 @@
 class Solution:
     def removeDuplicates(self, nums):
-        if len(nums) == 0:
-            return 0
-        else:
-            a = 0
-            for i in range(1, len(nums)):
-                if nums[a] != nums[i]:
-                    a += 1
-                    nums[a] = nums[i]
-            return a + 1
+        nums_set = list(set(nums))
+        nums_set.sort()
+        return len(nums_set)
