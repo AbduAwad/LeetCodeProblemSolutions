@@ -5,10 +5,8 @@
 #         self.next = next
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
-        
         l1 = self.reverse(l1)
         l2 = self.reverse(l2)
-
         sumStr1, sumStr2 = '',''
         while l1:
             sumStr1 += str(l1.val)
